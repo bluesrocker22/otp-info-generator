@@ -4,7 +4,7 @@ There is some scripts for generate sets of user files in [MultiOTP](https://gith
 
 Set of user files is the set of files for user-device settings in zip-archive with filename same as provided username.
 
-Every archive contains:
+Every generated archive contains:
 - QR-code in .png file
 - text-link in .txt file
 - seed-phrase (separately by text-link) in .txt file  
@@ -18,4 +18,5 @@ Every archive contains:
 Every script make prompt to synchronize AD users with local database before making it main task.
 
 *There's no user existence checks or checks for any other possible errors, because it's overcoding for that's simple tasks.*
+
 *I want to merge all this functions to one script in the future.*
